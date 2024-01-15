@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Projekt Web aplikacije</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-kJ8z0WMK5Ik1TCWW8lGsqwrs6iKubjF8TvZxkG5VMI+vmBqK5p5i7F3TuDYzTN5O" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="Onama12.index - Copy.html"><img src="slike/pliva-logo-11685171379azimr2gpqy.png" alt="Pliva" title="Pliva"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="sakrijmeni()"></i>
+                    <ul>
+                        <li><a href="Naslovna12.index.html">Naslovna</a></li>
+                        <li><a href="Vijesti12.index - Copy - Copy.html">Vijesti</a></li>
+                        <li><a href="Galerija12.index - Copy - Copy (2).html">Galerija</a></li>
+                        <li><a href="Onama12.index - Copy.html">O nama</a></li>
+                        <li><a href="Kontakt.index - Copy - Copy.html">Kontakt</a></li>
+                     </ul>
+                </div>
+                <i class="fas fa-bars" onclick="prikazimeni()"></i>
+            </nav>
+            <h1>O nama</h1>
+        </section>
+        <section class="Onama">
+            <div class="red">
+                <div class="kolona">
+                    <h2>Vodeća farmaceutska tvrtka u Hrvatskoj</h2>
+                    <p>PLIVA d.o.o. (akronim u značenju "Proizvodnja lijekova i vakcina") hrvatska je farmaceutska tvrtka sa sjedištem u Zagrebu. Najveća je farmaceutska tvrtka u južnoj Europi i hrvatski treći najveći izvoznik. Tvrtka je utemeljena 1921. godine u mjestu Kaštel kraj Karlovca. Za vrijeme Banovine Hrvatske Kaštel je pridružen Plibahu, što je kratica od početnih slova Proizvodnja lijekova Banovine Hrvatske. Postupnim proširenjem proizvodnje na bazne sirovine i vakcine, tvornica dobiva svoje trajno ime Pliva, složeno od početnih slova: Proizvodnja lijekova i vakcina.</p>
+                </div>
+                <div class="kolona">
+                    <video controls autoplay muted poster="slike/pliva-logo-11685171379azimr2gpqy.png">
+                        <source src="Video/video (2160p).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="kolona">
+                    <p>Pliva razvija, proizvodi i prodaje gotove oblike generičkih lijekova i aktivne farmaceutske supstancije, a njezin portfelj obuhvaća generičke lijekove i generičke lijekove s dodanom vrijednošću, biogeneričke lijekove i citostatike.
+                    Vladimir Prelog, dobitnik Nobelove nagrade za kemiju, jedan je od znanstvenika koji su radili u razvojnom timu Plive.
+                    Godine 1980. sastav stručnjaka iz znanstvenog instituta ovog poduzeća, kojeg je predvodio dr. Slobodan Đokić, Gorjana Radoboja-Lazarevski, Zrinka Tamburašev i Gabrijela Kobrehel, otkrio je formulu kemijskog spoja azitromicina, djelatne tvari svjetski poznatog antibiotika sumameda, jednog od najprodavanijih antibiotika, kojeg je 1981. Pliva patentirala diljem svijeta, uključujući i u Sjedinjenim Državama. Patent je istekao 2005. godine.</p>
+                    <p>Najveća Plivina tržišta su Hrvatska, SAD i Rusija. Slijede Poljska, Ukrajina, Bosna i Hercegovina, Češka Republika, Velika Britanija, Kazahstan i Mađarska, gdje se više od 80% proizvoda izvozi.
+                        25. listopada 2006. Pliva je prodana američkoj velikoj tvrtki Barr Pharmaceuticals, Inc., koja je preuzela 92% dionica Plive u skladu s uvjetima završne ponude od 2,5 milijardi dolara. Zajedno s Plivinim trezorskim dionicama, Barr sada posjeduje ili kontrolira više od 95% Plivinih dionica s pravom glasa.</p>
+                </div>
+            </div>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function prikazimeni(){
+                navLinks.style.right = "0";
+            }
+            function sakrijmeni(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <footer>
+            <div>
+              <a href="https://www.facebook.com/PLIVAzdravlje/?locale=hr_HR" target="_blank" class="icon-link"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/PLIVA_HRVATSKA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-link"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/pliva_hrvatska/" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+            </div>
+          </footer>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Projekt Web aplikacije</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-kJ8z0WMK5Ik1TCWW8lGsqwrs6iKubjF8TvZxkG5VMI+vmBqK5p5i7F3TuDYzTN5O" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="Naslovna12.index.html"><img src="slike/pliva-logo-11685171379azimr2gpqy.png" alt="Pliva" title="Pliva"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="sakrijmeni()"></i>
+                    <ul>
+                        <li><a href="Naslovna12.index.html">Naslovna</a></li>
+                        <li><a href="Vijesti12.index - Copy - Copy.html">Vijesti</a></li>
+                        <li><a href="Galerija12.index - Copy - Copy (2).html">Galerija</a></li>
+                        <li><a href="Onama12.index - Copy.html">O nama</a></li>
+                        <li><a href="Kontakt.index - Copy - Copy.html">Kontakt</a></li>
+                     </ul>
+                </div>
+                <i class="fas fa-bars" onclick="prikazimeni()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Što je penicilin?</h1>
+                <p>Penicilin je prvi antibiotik uveden u liječenje, koji se i danas najviše primjenjuje zbog svoje vrlo male toksičnosti i snažna učinka na mikroorganizme. Dobiva se od kultura plijesni<br>Penicillium notatum. Otkrio ga je A. Fleming (1928), a njegova industr. proizvodnja započela je 1942. u SAD-u i Engleskoj.</p>
+                <p>Penicilin se propisuje za liječenje različitih bakterijskih bolesti, prvenstveno onih uzrokovanih gram-pozitivnim (stafilokoki, streptokoki, pneumokoki, klostridije, bacili difterije), nekim gram-negativnim (gonokoki, meningokoki) uzročnicima, te spirohetama i aktinomicetima.</p>
+                <p>Penicilin djeluje baktericidno zaustavljajući diobu bakterija kočenjem njihove tvarne izmjene ili ih razara u stadiju diobe.</p>
+            </div> 
+        </section>
+        <section class="penicilini">
+            <h1>Molekula</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="slika">
+                <img class="slikamolekule" src="slike/800px-Penicillin-nucleus-3D-balls.png" alt="Molekula penicilina" title="Molekula penicilina" height = "300">
+                <p class = "opis" >Ovo je izgled molekule penicilina.</p>
+            </div>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function prikazimeni(){
+                navLinks.style.right = "0";
+            }
+            function sakrijmeni(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <footer>
+            <div>
+              <a href="https://www.facebook.com/PLIVAzdravlje/?locale=hr_HR" target="_blank" class="icon-link"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/PLIVA_HRVATSKA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-link"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/pliva_hrvatska/" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+            </div>
+          </footer>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Projekt Web aplikacije</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-kJ8z0WMK5Ik1TCWW8lGsqwrs6iKubjF8TvZxkG5VMI+vmBqK5p5i7F3TuDYzTN5O" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="Onama12.index - Copy.html"><img src="slike/pliva-logo-11685171379azimr2gpqy.png" alt="Pliva" title="Pliva"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="sakrijmeni()"></i>
+                    <ul>
+                        <li><a href="Naslovna12.index.html">Naslovna</a></li>
+                        <li><a href="Vijesti12.index - Copy - Copy.html">Vijesti</a></li>
+                        <li><a href="Galerija12.index - Copy - Copy (2).html">Galerija</a></li>
+                        <li><a href="Onama12.index - Copy.html">O nama</a></li>
+                        <li><a href="Kontakt.index - Copy - Copy.html">Kontakt</a></li>
+                     </ul>
+                </div>
+                <i class="fas fa-bars" onclick="prikazimeni()"></i>
+            </nav>
+            <h1>Vijesti</h1>
+        </section>
+        <div class="image-container">
+            <div class="image-item">
+              <img src="slike/preuzmi.jpg" alt="Sumamed" title="Sumamed">
+              <h2>Otkriven Sumamed</h2>
+              <p>Tim stručnjaka predvođen kemičarom doktorom Slobodanom Đokićem u sastavu koji su činile Gorjana Radobolja-Lazarevski, Zrinka Tamburašev i Gabrijela Kobrehel godine 1980. otkrio je formulu kemijskog spoja azitromicina koji se pokazao izrazito efikasnim pri terapijskom liječenju bakterijskih infekcija.</p>
+            </div>
+            <div class="image-item">
+              <img src="slike/art60705_6155643d437c2.jpg" alt="Plivit Total" title="Plivit Total">
+              <h2>Otkriven Plivit Total</h2>
+              <p>Otkriven Plivit Total koji je vitaminsko-minerali dodatak prehrani s esencijalnim aminokiselinama.</p>
+            </div>
+            <div class="image-item">
+              <img src="slike/klavocin (1).jpg" alt="Slika 3">
+              <h2>Nestašica Klavocina</h2>
+              <p>U Hrvatskoj je nastupila nestašica jednog od najčešće korištenih antibiotika - Klavocina. Farmaceutska kompanija Pliva prijavila je Hrvatskoj agenciji za lijekove i medicinske proizvode nestašicu od 15. prosinca do 10.siječnja.</p>
+            </div>
+          </div>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function prikazimeni(){
+                navLinks.style.right = "0";
+            }
+            function sakrijmeni(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
